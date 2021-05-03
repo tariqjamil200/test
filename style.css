@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+:root{
+    --prymary:#391E1E;
+}
+*::selection{
+    background: black;
+    color: wheat;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.img-header{
+    background-image: url(/img/Aster-Pharmacy.jpg);
+    background-size:cover ;
+    width: 100vw;
+   height: 100vh;
+}
+.nav-container{
+   height: 10%;
+    background: #333232;
+   display: flex;
+}
+
+.logo{
+width: 80px;
+height: 80px;
+
+}
+.logo img{
+    width: 50%;
+    height: 50%;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.search-bar{
+   margin-left: auto;
+   margin-right: 100px;
+   margin-top: 12px;
+
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container{
+    /* width: 1300px;
+    margin: 0 auto; */
+}
+.header-text{
+ position: absolute;
+ width: 575px;
+ height: 372px;
+background: rgba(57, 30, 30, 0.62);
+margin-top: 10%;
+margin-left: 15%;
+}
+.header-text h1{
+    line-height: 75.14px;
+    margin-top: 5%;
+    margin-left: 7%;
+    color: #fff;
+    font-size: 44px;
+    font-family: Podkova;
+    letter-spacing: 1.5px;
+}
+.header-text h1 span{
+    color:#CC5827;
+}
+.header-text .pragaraph{
+    position: relative;
+}
+.header-text .pragaraph p{
+    color: #fff;
+    width: 476px;
+    height: 253px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.doctors{
+    width: 491px;
+    height: 528px;    
+   
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.doctors img{
+    width: 60%;
+    height: 60%;
+}
+
+.main{
+    margin-top: 5%;
+    margin-left:5%;
+    width: 1400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #9e9797;
+    display: flex;
+}
+.first-div{
+    margin-top: 4%;
+    padding: 0 10px;
+    /* background: rgba(57, 30, 30, 0.62); */
+    margin-left: 10%;
+}
+.first-div img{
+    margin-left: 25%;
+}
+.first-div h2{
+    margin-top: 15%;
+    color: #88E169;
+    font-family: Podkova;
+    letter-spacing: 1.2px;
+
+}
+.first-div p{
+    margin-top: 15%;
+  line-height: 30px;
+}
+.first-div a{
+    margin-left: 25%;
+    color: #88E169;
+    font-family: Podkova;
+    line-height: 90px;
+}
+.sccend-div{
+    margin-top: 4%;
+    padding: 0 10px;
+    /* background: rgba(57, 30, 30, 0.62); */
+    margin-left: 16%;
+}
+.sccend-div img{
+    margin-left: 25%;
+}
+.sccend-div h2{
+    margin-top: 15%;
+    color: #88E169;
+    font-family: Podkova;
+    letter-spacing: 1.2px;
+}
+.sccend-div p{
+    margin-top: 15%;
+    line-height: 30px;
+}
+.sccend-div a{
+    margin-left: 25%;
+    color: #88E169;
+    font-family: Podkova;
+    line-height: 90px;
+}
+.end-div{
+    margin-top: 4%;
+    padding: 0 10px;
+    /* background: rgba(57, 30, 30, 0.62); */
+    margin-left: 14%;
+}
+.end-div img{
+    margin-left: 25%;
+}
+.end-div h2{
+    margin-top: 15%;
+    color: #88E169;
+    font-family: Podkova;
+    letter-spacing: 1.2px;
+}
+.end-div p{
+    margin-top: 15%;
+    line-height: 30px;
+}
+.end-div a{
+    margin-left: 25%;
+    color: #88E169;
+    font-family: Podkova;
+    line-height: 90px;
+}
+.background-container{
+    width: 1400px;
+    height: 251px;
+    margin-top: 5%;
+    margin-left:5%;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #9e9797;
+}
+.font-h1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.font-h1 h2{
+   margin-top: 7%;
+   font-family: Podkova;
+   letter-spacing: 1.2px;
+}
+.font-h1 h2 span{
+    color: #88E169;
+}
+.font-h1 .line{
+    margin-top: 10%;
+}
+.font-h1 .line img{
+margin-left: -80%;
+width: 80px;
+}
